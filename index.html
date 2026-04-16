@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 
 <head>
     <meta charset="UTF-8">
@@ -10,33 +10,47 @@
 
 <body>
     <header>
-        <h1>Hemsidans titel</h1>
+        <h1>
+            <span class="title-main">Level Up</span>
+            <span class="title-accent">Life</span>
+        </h1>
         <nav>
             <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="#section1">Avsnitt 1</a></li>
-                <li><a href="#section2">PROGRESS 2</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard 1</a></li>
+                <li><a href="quests.html">Quests</a></li>
+                <li><a href="progress.html">Progress</a></li>
+                
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="section1">
-            <h2>Avsnitt 1</h2>
-            <p>Lägg till innehål här</p>
-        </section>
+    <section id="journey">
+        <h2>Your Journey Starts Here</h2>
+        <p>
+            Förvandla ditt dagliga liv till ett RPG-spel där varje träningspass, studiestund och utmaning ger dig XP. 
+            Level up genom att completea quests och se din karaktär växa starkare för varje dag.
+        </p>
+        <p>
+            <strong>Träning = XP</strong> • <strong>Studier = XP</strong> • <strong>Challenges = XP</strong>
+        </p>
+        <a href="dashboard.html" class="cta-button">Start Your Quest</a>
+    </section>
 
-        <section id="section2">
-            <h2>Avsnitt 2</h2>
-            <p>Lägg till innehål här</p>
-        </section>
-    </main>
-
-
-    <footer>
-        <p>Kontakt: info@example.com | Telefon: 123-456-7890</p>
-        <p>&copy; 2026 Hemsidans namn. Alla rättigheter förbehållna.</p>
-    </footer>
-</body>
-
-</html>
+    <section id="progress">
+        <h2>Track Your Progress</h2>
+        <p>
+            Följ dina stats i realtid och se hur din karaktär utvecklas:
+        </p>
+        <ul class="stats-list">
+            <li><strong>Strength</strong> – Byggs genom träning och fysiska challenges</li>
+            <li><strong>Intelligence</strong> – Växer med studier och problem-solving</li>
+            <li><strong>Endurance</strong> – Ökar med kardio och konsekvent grind</li>
+            <li><strong>Discipline</strong> – Stärks genom daily streaks och habits</li>
+        </ul>
+        <p>
+            Complete daily quests, bygga streaks och unlock achievements medan du level:ar upp i verkligheten.
+        </p>
+    </section>
+</main>
