@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Level Up Life - Transform Your Reality</title>
+    <title>Dashboard - Level Up Life</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,6 @@
 </head>
 
 <body>
-    <!-- Animated background particles -->
     <div class="particle-container">
         <div class="particle"></div>
         <div class="particle"></div>
@@ -21,7 +20,6 @@
         <div class="particle"></div>
     </div>
 
-    <!-- Fixed level indicator -->
     <div class="level-badge">
         <span class="level-number">LVL 1</span>
         <div class="xp-bar">
@@ -32,14 +30,13 @@
     <header>
         <div class="header-glow"></div>
         <h1>
-            <span class="title-main">Level Up</span>
-            <span class="title-accent">Life</span>
+            <span class="title-main">Dashboard</span>
         </h1>
-        <p class="tagline">Transform Your Reality Into An Epic Quest</p>
+        <p class="tagline">Monitor Your Growth & Stats</p>
         <nav>
             <ul>
-                <li><a href="index.html" class="nav-active">Home</a></li>
-                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html" class="nav-active">Dashboard</a></li>
                 <li><a href="quests.html">Quests</a></li>
                 <li><a href="progress.html">Progress</a></li>
             </ul>
@@ -47,43 +44,38 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section id="hero" class="hero-section">
+        <!-- Current Level Overview -->
+        <section id="level-overview" class="hero-section">
             <div class="hero-content">
-                <h2 class="hero-title">Your Journey Starts Here</h2>
+                <h2 class="hero-title">Level 1 Hunter</h2>
                 <p class="hero-description">
-                    Förvandla ditt dagliga liv till ett RPG-spel där varje träningspass, studiestund och utmaning ger dig XP. 
-                    Level up genom att completea quests och se din karaktär växa starkare för varje dag.
+                    Du har börjat din resa som E-Rank Hunter. Complete quests och samla XP för att rank up och unlock new abilities.
                 </p>
                 <div class="hero-stats">
                     <div class="stat-pill">
-                        <span class="stat-icon">💪</span>
-                        <span class="stat-label">Träning = XP</span>
+                        <span class="stat-icon">📊</span>
+                        <span class="stat-label">Total XP: 850</span>
                     </div>
                     <div class="stat-pill">
-                        <span class="stat-icon">🧠</span>
-                        <span class="stat-label">Studier = XP</span>
+                        <span class="stat-icon">🔥</span>
+                        <span class="stat-label">Streak: 7 days</span>
                     </div>
                     <div class="stat-pill">
-                        <span class="stat-icon">⚔️</span>
-                        <span class="stat-label">Challenges = XP</span>
+                        <span class="stat-icon">🏆</span>
+                        <span class="stat-label">Rank: E</span>
                     </div>
                 </div>
-                <a href="dashboard.html" class="cta-button">
-                    <span class="button-text">Start Your Quest</span>
-                    <span class="button-arrow">→</span>
-                </a>
             </div>
             <div class="hero-image">
                 <div class="character-silhouette"></div>
             </div>
         </section>
 
-        <!-- Stats Section -->
-        <section id="stats-overview" class="stats-section">
+        <!-- Detailed Stats -->
+        <section id="detailed-stats">
             <h2 class="section-title">
                 <span class="title-decoration">◆</span>
-                Core Stats
+                Character Stats
                 <span class="title-decoration">◆</span>
             </h2>
             <div class="stats-grid">
@@ -94,7 +86,7 @@
                         <div class="stat-fill" style="width: 45%"></div>
                         <span class="stat-value">45/100</span>
                     </div>
-                    <p>Byggs genom träning och fysiska challenges</p>
+                    <p>Träning: 12 sessioner<br>Senaste ökning: +3</p>
                 </div>
                 <div class="stat-card intelligence">
                     <div class="stat-icon-large">🧠</div>
@@ -103,7 +95,7 @@
                         <div class="stat-fill" style="width: 68%"></div>
                         <span class="stat-value">68/100</span>
                     </div>
-                    <p>Växer med studier och problem-solving</p>
+                    <p>Studier: 23 timmar<br>Senaste ökning: +5</p>
                 </div>
                 <div class="stat-card endurance">
                     <div class="stat-icon-large">🏃</div>
@@ -112,7 +104,7 @@
                         <div class="stat-fill" style="width: 52%"></div>
                         <span class="stat-value">52/100</span>
                     </div>
-                    <p>Ökar med kardio och konsekvent grind</p>
+                    <p>Kardio: 8 sessioner<br>Senaste ökning: +4</p>
                 </div>
                 <div class="stat-card discipline">
                     <div class="stat-icon-large">🎯</div>
@@ -121,118 +113,114 @@
                         <div class="stat-fill" style="width: 73%"></div>
                         <span class="stat-value">73/100</span>
                     </div>
-                    <p>Stärks genom daily streaks och habits</p>
+                    <p>Streaks: 7 dagar<br>Senaste ökning: +6</p>
                 </div>
             </div>
         </section>
 
-        <!-- Progress Tracking Section -->
-        <section id="progress" class="progress-section">
-            <h2 class="section-title">Track Your Progress</h2>
+        <!-- Recent Activity -->
+        <section id="activity">
+            <h2 class="section-title">Recent Activity</h2>
             <div class="progress-content">
                 <div class="progress-text">
-                    <p class="intro-text">
-                        Följ dina stats i realtid och se hur din karaktär utvecklas genom systemet.
-                    </p>
                     <ul class="feature-list">
                         <li>
                             <span class="feature-icon">✓</span>
                             <div class="feature-content">
-                                <strong>Daily Quests</strong>
-                                <span>Complete missions och earn XP varje dag</span>
+                                <strong>Quest Completed: Morning Training</strong>
+                                <span>+50 XP • Strength +1 • 2 timmar sedan</span>
                             </div>
                         </li>
                         <li>
                             <span class="feature-icon">✓</span>
                             <div class="feature-content">
-                                <strong>Streak System</strong>
-                                <span>Bygga momentum med consecutive days</span>
+                                <strong>Quest Completed: Study Session</strong>
+                                <span>+75 XP • Intelligence +2 • 5 timmar sedan</span>
                             </div>
                         </li>
                         <li>
                             <span class="feature-icon">✓</span>
                             <div class="feature-content">
-                                <strong>Achievements</strong>
-                                <span>Unlock badges och milestones</span>
+                                <strong>Daily Streak Extended</strong>
+                                <span>+25 XP • Discipline +1 • 1 dag sedan</span>
                             </div>
                         </li>
                         <li>
                             <span class="feature-icon">✓</span>
                             <div class="feature-content">
-                                <strong>Level System</strong>
-                                <span>Level up och unlock new abilities</span>
+                                <strong>Quest Completed: Cardio Challenge</strong>
+                                <span>+60 XP • Endurance +2 • 2 dagar sedan</span>
                             </div>
                         </li>
                     </ul>
                 </div>
                 <div class="progress-visual">
                     <div class="level-card">
-                        <div class="level-header">Current Level</div>
-                        <div class="level-display">1</div>
+                        <div class="level-header">Progress Till Level 2</div>
+                        <div class="level-display">85%</div>
                         <div class="xp-display">
                             <div class="xp-label">850 / 1000 XP</div>
                             <div class="xp-bar-large">
                                 <div class="xp-fill-large"></div>
                             </div>
                         </div>
-                        <div class="next-level">Next: Level 2</div>
+                        <div class="next-level">150 XP kvar</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- System Features Section -->
-        <section id="features" class="features-section">
-            <h2 class="section-title">System Features</h2>
+        <!-- Weekly Goals -->
+        <section id="weekly-goals">
+            <h2 class="section-title">Veckans Mål</h2>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-header">
-                        <span class="feature-number">01</span>
-                        <h3>Quest Log</h3>
+                        <span class="feature-number">🎯</span>
+                        <h3>Träning</h3>
                     </div>
-                    <p>Organisera dina mål som quests. Tracka progress, sätt deadlines och earn rewards när du completar dem.</p>
-                    <div class="feature-badge">Active</div>
+                    <p>Genomför 5 träningspass denna vecka</p>
+                    <div class="stat-bar">
+                        <div class="stat-fill" style="width: 40%"></div>
+                        <span class="stat-value">2/5</span>
+                    </div>
+                    <div class="feature-badge">I gång</div>
                 </div>
                 <div class="feature-card">
                     <div class="feature-header">
-                        <span class="feature-number">02</span>
-                        <h3>Stat Dashboard</h3>
+                        <span class="feature-number">📚</span>
+                        <h3>Studier</h3>
                     </div>
-                    <p>Se alla dina stats på ett ställe. Monitor din utveckling över tid med detailed analytics.</p>
-                    <div class="feature-badge">Active</div>
+                    <p>15 timmars studiefokus</p>
+                    <div class="stat-bar">
+                        <div class="stat-fill" style="width: 66%"></div>
+                        <span class="stat-value">10/15h</span>
+                    </div>
+                    <div class="feature-badge">I gång</div>
                 </div>
                 <div class="feature-card">
                     <div class="feature-header">
-                        <span class="feature-number">03</span>
-                        <h3>Achievement System</h3>
+                        <span class="feature-number">🔥</span>
+                        <h3>Streak</h3>
                     </div>
-                    <p>Unlock achievements för milestones. Samla badges och visa din dedication.</p>
-                    <div class="feature-badge coming-soon">Coming Soon</div>
+                    <p>Behåll 7-dagars streak</p>
+                    <div class="stat-bar">
+                        <div class="stat-fill" style="width: 100%"></div>
+                        <span class="stat-value">7/7</span>
+                    </div>
+                    <div class="feature-badge">Klar!</div>
                 </div>
                 <div class="feature-card">
                     <div class="feature-header">
-                        <span class="feature-number">04</span>
-                        <h3>Daily Challenges</h3>
+                        <span class="feature-number">💼</span>
+                        <h3>Business</h3>
                     </div>
-                    <p>Nya challenges varje dag. Push dig själv och earn bonus XP för completion.</p>
-                    <div class="feature-badge coming-soon">Coming Soon</div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Call to Action Section -->
-        <section id="cta-final" class="cta-section">
-            <div class="cta-content">
-                <h2>Ready to Transform?</h2>
-                <p>Din resa börjar nu. Varje steg du tar, varje challenge du overcommer, gör dig starkare.</p>
-                <div class="cta-buttons">
-                    <a href="dashboard.html" class="cta-primary">
-                        Enter Dashboard
-                        <span class="arrow">→</span>
-                    </a>
-                    <a href="quests.html" class="cta-secondary">
-                        View Quests
-                    </a>
+                    <p>10 Vinted försäljningar</p>
+                    <div class="stat-bar">
+                        <div class="stat-fill" style="width: 60%"></div>
+                        <span class="stat-value">6/10</span>
+                    </div>
+                    <div class="feature-badge">I gång</div>
                 </div>
             </div>
         </section>
@@ -247,7 +235,7 @@
             <div class="footer-section">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="quests.html">Quests</a></li>
                     <li><a href="progress.html">Progress</a></li>
                 </ul>
