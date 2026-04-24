@@ -1,6 +1,9 @@
+Dashboard · HTML
+Copy
+
 <!DOCTYPE html>
 <html lang="sv">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-
+ 
 <body>
     <div class="particle-container">
         <div class="particle"></div>
@@ -19,14 +22,14 @@
         <div class="particle"></div>
         <div class="particle"></div>
     </div>
-
+ 
     <div class="level-badge">
         <span class="level-number">LVL 1</span>
         <div class="xp-bar">
             <div class="xp-progress"></div>
         </div>
     </div>
-
+ 
     <header>
         <div class="header-glow"></div>
         <h1>
@@ -42,7 +45,7 @@
             </ul>
         </nav>
     </header>
-
+ 
     <main>
         <!-- Current Level Overview -->
         <section id="level-overview" class="hero-section">
@@ -70,187 +73,4 @@
                 <div class="character-silhouette"></div>
             </div>
         </section>
-
-        <!-- Detailed Stats -->
-        <section id="detailed-stats">
-            <h2 class="section-title">
-                <span class="title-decoration">◆</span>
-                Character Stats
-                <span class="title-decoration">◆</span>
-            </h2>
-            <div class="stats-grid">
-                <div class="stat-card strength">
-                    <div class="stat-icon-large">💪</div>
-                    <h3>Strength</h3>
-                    <div class="stat-bar">
-                        <div class="stat-fill" style="width: 45%"></div>
-                        <span class="stat-value">45/100</span>
-                    </div>
-                    <p>Träning: 12 sessioner<br>Senaste ökning: +3</p>
-                </div>
-                <div class="stat-card intelligence">
-                    <div class="stat-icon-large">🧠</div>
-                    <h3>Intelligence</h3>
-                    <div class="stat-bar">
-                        <div class="stat-fill" style="width: 68%"></div>
-                        <span class="stat-value">68/100</span>
-                    </div>
-                    <p>Studier: 23 timmar<br>Senaste ökning: +5</p>
-                </div>
-                <div class="stat-card endurance">
-                    <div class="stat-icon-large">🏃</div>
-                    <h3>Endurance</h3>
-                    <div class="stat-bar">
-                        <div class="stat-fill" style="width: 52%"></div>
-                        <span class="stat-value">52/100</span>
-                    </div>
-                    <p>Kardio: 8 sessioner<br>Senaste ökning: +4</p>
-                </div>
-                <div class="stat-card discipline">
-                    <div class="stat-icon-large">🎯</div>
-                    <h3>Discipline</h3>
-                    <div class="stat-bar">
-                        <div class="stat-fill" style="width: 73%"></div>
-                        <span class="stat-value">73/100</span>
-                    </div>
-                    <p>Streaks: 7 dagar<br>Senaste ökning: +6</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Recent Activity -->
-        <section id="activity">
-            <h2 class="section-title">Recent Activity</h2>
-            <div class="progress-content">
-                <div class="progress-text">
-                    <ul class="feature-list">
-                        <li>
-                            <span class="feature-icon">✓</span>
-                            <div class="feature-content">
-                                <strong>Quest Completed: Morning Training</strong>
-                                <span>+50 XP • Strength +1 • 2 timmar sedan</span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="feature-icon">✓</span>
-                            <div class="feature-content">
-                                <strong>Quest Completed: Study Session</strong>
-                                <span>+75 XP • Intelligence +2 • 5 timmar sedan</span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="feature-icon">✓</span>
-                            <div class="feature-content">
-                                <strong>Daily Streak Extended</strong>
-                                <span>+25 XP • Discipline +1 • 1 dag sedan</span>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="feature-icon">✓</span>
-                            <div class="feature-content">
-                                <strong>Quest Completed: Cardio Challenge</strong>
-                                <span>+60 XP • Endurance +2 • 2 dagar sedan</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="progress-visual">
-                    <div class="level-card">
-                        <div class="level-header">Progress Till Level 2</div>
-                        <div class="level-display">85%</div>
-                        <div class="xp-display">
-                            <div class="xp-label">850 / 1000 XP</div>
-                            <div class="xp-bar-large">
-                                <div class="xp-fill-large"></div>
-                            </div>
-                        </div>
-                        <div class="next-level">150 XP kvar</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Weekly Goals -->
-        <section id="weekly-goals">
-            <h2 class="section-title">Veckans Mål</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-header">
-                        <span class="feature-number">🎯</span>
-                        <h3>Träning</h3>
-                    </div>
-                    <p>Genomför 5 träningspass denna vecka</p>
-                    <div class="stat-bar">
-                        <div class="stat-fill" style="width: 40%"></div>
-                        <span class="stat-value">2/5</span>
-                    </div>
-                    <div class="feature-badge">I gång</div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-header">
-                        <span class="feature-number">📚</span>
-                        <h3>Studier</h3>
-                    </div>
-                    <p>15 timmars studiefokus</p>
-                    <div class="stat-bar">
-                        <div class="stat-fill" style="width: 66%"></div>
-                        <span class="stat-value">10/15h</span>
-                    </div>
-                    <div class="feature-badge">I gång</div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-header">
-                        <span class="feature-number">🔥</span>
-                        <h3>Streak</h3>
-                    </div>
-                    <p>Behåll 7-dagars streak</p>
-                    <div class="stat-bar">
-                        <div class="stat-fill" style="width: 100%"></div>
-                        <span class="stat-value">7/7</span>
-                    </div>
-                    <div class="feature-badge">Klar!</div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-header">
-                        <span class="feature-number">💼</span>
-                        <h3>Business</h3>
-                    </div>
-                    <p>10 Vinted försäljningar</p>
-                    <div class="stat-bar">
-                        <div class="stat-fill" style="width: 60%"></div>
-                        <span class="stat-value">6/10</span>
-                    </div>
-                    <div class="feature-badge">I gång</div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>Level Up Life</h4>
-                <p>Transform your reality into an epic quest.</p>
-            </div>
-            <div class="footer-section">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="quests.html">Quests</a></li>
-                    <li><a href="progress.html">Progress</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Stats</h4>
-                <p class="footer-stat">Level: <strong>1</strong></p>
-                <p class="footer-stat">XP: <strong>850/1000</strong></p>
-                <p class="footer-stat">Streak: <strong>7 days</strong></p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Level Up Life. Designed for hunters who never give up.</p>
-        </div>
-    </footer>
-</body>
-
-</html>
+ 
