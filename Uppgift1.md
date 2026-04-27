@@ -15,3 +15,11 @@
 
 # Anteckningar
 Anteckna kort här vad du har gjort för förändringar på sidan i denna uppgift.
+
+Vad jag har gjort Har gjort en title med namnet 
+
+<title>"level up life<title>  
+
+skrivit rubrik 
+
+
