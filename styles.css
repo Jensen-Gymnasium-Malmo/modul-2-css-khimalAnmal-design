@@ -110,3 +110,81 @@ footer {
     h1 { font-size: 2rem; }
     .hero-section { flex-direction: column; }
     .stats-grid { grid-template-columns: 1fr; }
+
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    color: #fbbf24;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #1e3a8a 0%, #3b82f6 50%, #1e3a8a 100%);
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+ 
+
+footer {
+    background-color: #1e3a8a;
+    color: #e0e0e0;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 3px solid #3b82f6;
+}
+ 
+footer h3 {
+    color: #fbbf24;
+    margin-bottom: 1rem;
+}
+ 
+footer p {
+    margin: 0.5rem 0;
+}
+ 
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #e0e0e0;
+    margin: 1rem 0;
+}
+ 
+
+.info-box {
+    background: rgba(59, 130, 246, 0.2);
+    border-left: 4px solid #3b82f6;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+}
+ 
+
+.highlight-text {
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    color: #0f0f23;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+}
+ 
+
+.tagline-header {
+    font-size: 1.5rem;
+    color: #60a5fa;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+ 
+ 
+    
